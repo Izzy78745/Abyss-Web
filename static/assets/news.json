@@ -1,0 +1,16 @@
+{
+    "content": "Abyss V5 is now released! Make sure to <a href='https://discord.gg/goabyss'>join the discord</a> to get more links!",
+    "gamesContent": "We have some brand new games, here are some of our best!",
+    "includeGames": [
+        {
+            "name": "Sonic The Hedgehog",
+			"url": "javascript:runService('https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fsonic-the-hedgehog.xml')",
+			"image": "https://www.hollywoodreporter.com/wp-content/uploads/2017/07/sonic.jpg?w=1296"
+        },
+        {
+            "name": "Super Mario 64",
+			"url": "javascript:runService('https://arkshocer.github.io/sm64/')",
+			"image": "https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg"
+        }
+    ]
+}
