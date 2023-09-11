@@ -553,7 +553,7 @@
 </svelte:head>
 
 <header>
-	<a href="/"><h1>Abyss</h1></a>
+	<h1>Abyss</h1>
 	<div class="links">
 		<p id="gameLink">Games</p>
 		<p id="settingsLink">Settings</p>
