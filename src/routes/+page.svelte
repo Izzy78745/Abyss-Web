@@ -48,6 +48,7 @@
 		} else {
 			browserName = 'Browser not detected!';
 		}
+		
 		setTimeout(
 			console.log.bind(
 				console,
