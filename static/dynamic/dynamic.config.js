@@ -1,16 +1,14 @@
-// See documentation for more information 
-
 self.__dynamic$config = {
   prefix: '/service/',
   encoding: 'xor',
-  mode: 'production', 
-  logLevel: 0, 
+  mode: 'production', // development: zero caching, no minification, production: speed-oriented
+  logLevel: 0, // 0: none, 1: errors, 2: errors + warnings, 3: errors + warnings + info
   bare: {
-    version: 2, 
+    version: 2, // v3 is bad
     path: '/bare/',
   },
   tab: {
-    title: 'Service',
+    title: null,
     icon: null,
     ua: null,
   },

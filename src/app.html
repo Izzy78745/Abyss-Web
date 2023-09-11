@@ -909,7 +909,7 @@
 				document.getElementById('adrbar').value = '';
 				document.getElementById('adrbar').placeholder = url;
 				var iframe = document.createElement('iframe');
-				iframe.src = '/service/route?url=' + encodeURIComponent(url);
+				iframe.src = '/service/' +  __uv$config.encodeUrl(url);
 				iframe.className = 'extFrame';
 				iframe.style.width = '100%';
 				iframe.style.height = 'calc(100% - 133px)';
